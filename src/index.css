@@ -6,6 +6,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: AntiqueWhite;
+}
+
+li {
+  font-family: monospace;
+  font-size: 14pt;
+}
+
+button {
+  font-size: 17px;
 }
 
 code {
