@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import FilmList from '../components/FilmList.js';
 import FilmHeader from '../components/FilmHeader.js';
-
+import FilmButton from '../components/FilmButton.js'
 
 class FilmReleaseContainer extends Component {
 
@@ -42,9 +42,7 @@ class FilmReleaseContainer extends Component {
       <>
       <FilmHeader text="Upcoming Film Releases For UK"/>
       <FilmList filmReleases={this.state.filmReleases}/>
-      <a href="https://www.imdb.com/calendar/?region=gb">
-        <button>View More Upcoming Releases </button>
-      </a>
+      <FilmButton url="https://www.imdb.com/calendar/?region=gb" text="View More Upcoming Releases"/>
       </>
     );
   }
